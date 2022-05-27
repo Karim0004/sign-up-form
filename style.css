@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.left-section {
+    width: 33vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
