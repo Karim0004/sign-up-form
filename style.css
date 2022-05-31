@@ -128,3 +128,7 @@ input:focus {
     background-color: #f7fff4;
     outline: none;
 }
+
+input:invalid, .error, .error:focus {
+    border: 1px solid #ff1111;
+}
