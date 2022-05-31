@@ -1,53 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet"> 
-</head>
-<body>
-    <div class="left-section">
-        <div class="dark-bg">
-            <img src="odin-logo.png" alt="The Odin Project Logo">
-            <p>ODIN</p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="left-section">
+            <div class="dark-bg">
+                <img src="odin-logo.png" alt="The Odin Project Logo">
+                <p>ODIN</p>
+            </div>
+            <p class="left-footer">Photo by Thomas Kelley on Unsplash</p>
         </div>
-        <p class="left-footer">Photo by Thomas Kelley on Unsplash</p>
-    </div>
-    <div class="content">
-        <p>This is not a real online service! You know you need something
-            like this in your life to help you realize your deepest dreams.
-            <br><br> You <em>know</em> you want to.</p>
-        
-        <form action="">
-            <div>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name">
+        <div class="content">
+            <p class="main-text">This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                <br>Sign up <em>now</em> to get started.
+                <br><br> You <em>know</em> you want to.</p>
+            
+            <div class="form-container">
+                <p>Let's do this!</p>
+                <form action="">
 
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name">
+                    <div>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name">
+                    </div>
 
-                <label for="email">EMAIL</label>
-                <input type="email" id="email">
+                    <div>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name">
+                    </div>
 
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" id="phone">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
 
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password">
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone">
+                    </div>
 
-                <label for="confirm-password">COFIRM PASSWORD</label>
-                <input type="password" id="confirm-password">
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password">
+                    </div>
+
+                    <div>
+                        <label for="confirm-password">COFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </form>
             </div>
             <button type="submit">Create Account</button>
-        </form>
 
-        <p>Already have an account? <a href="index.html">Log in</a></p>
-    </div>        
-</body>
+            <p class="login-text">Already have an account? <a href="index.html">Log in</a></p>
+        </div>        
+    </body>
 </html>
