@@ -47,7 +47,7 @@ img {
 
 .content {
     margin-left: 33vw;
-    padding: 10vh 0px;
+    padding: 8vh 0px;
     width: 100%;
     font-family:'Franklin Gothic Medium', Arial, sans-serif;
     color: #242424;
@@ -87,7 +87,7 @@ form > div > input {
 
 .form-container {
     background-color: #ffffff;
-    margin: 50px 0px;
+    margin: 50px 0 40px 0;
     padding: 30px 5vw;
     box-shadow: 0px 5px 10px #d1d1d1;
     color: #797979;
@@ -100,4 +100,31 @@ form > div > input {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 0;
     color: #383838;
+}
+
+.content > button {
+    padding: 10px 40px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: #466b3b;
+    background-color: #ffffff;
+    border: 1px solid #466b3b;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content > button:hover {
+    background-color: #466b3b;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #466b3b;
+}
+
+input:focus {
+    border: 1px solid #466b3b;
+    background-color: #f7fff4;
+    outline: none;
 }
